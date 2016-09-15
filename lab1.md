@@ -10,3 +10,6 @@ Jesse was aimed to provide a better searching environment. His approach is stori
 ![1](res/lab1/tree.png)
 ![2](res/lab1/regex1.png)
 ![3](res/lab1/regex2.png)
+
+![4](res/lab1/maze.png)
+![5](res/lab1/maze2.png)
