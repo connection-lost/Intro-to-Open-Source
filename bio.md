@@ -2,4 +2,4 @@
 ### E-mail: wuy13@rpi.edu 
 ### Github Account: connection-lost
 ### Slack Handle: connection_lost (Yitong "Frank" Wu)
-Photo ![Yitong Wu](images/me.jpg)
+Photo ![Yitong Wu](res/photo.jpg)
