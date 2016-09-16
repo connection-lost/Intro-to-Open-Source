@@ -8,4 +8,5 @@ Screenshot of learninggitbranching.js.org:
 ![lgp](res/lgp.png)
 
 ##Part 3
-\4. https://github.com/connection-lost-intro-to-open-source/courseproject
+#4.
+https://github.com/connection-lost-intro-to-open-source/courseproject
