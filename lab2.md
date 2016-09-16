@@ -30,7 +30,8 @@ Users could be any RPI students taking the shuttle. Depending on the extensibili
 
 Take 5 projects from Observatory or past RCOS Projects - create a table which project has which license.
 
-##10. Website | License Present | License
+##10.
+Website | License Present | License
 ---------|:----------|:-------
 https://github.com/olivierpo/minebot | Yes | MIT
 https://github.com/Robmaister/SharpNav | Yes | MIT
