@@ -29,6 +29,7 @@ Shuttle Tracker for RPI, MIT License
 Users could be any RPI students taking the shuttle. Depending on the extensibility of the project, the project could also be used on any school or organization with busses that are linked to the iTrak API. The reason choosing MIT license is the code does not worth any real revenue, it is better to just give them to the community and let them free to adapt.
 
 Take 5 projects from Observatory or past RCOS Projects - create a table which project has which license.
+
 Website | License Present | License
 ---------|:----------|:-------
 https://github.com/olivierpo/minebot | Yes | MIT
