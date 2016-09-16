@@ -13,3 +13,6 @@ Jesse was aimed to provide a better searching environment. His approach is stori
 
 ![4](res/lab1/maze.png)
 ![5](res/lab1/maze2.png)
+
+##Reflection
+I am interested in rewriting some existing popular resource that are having issues such as low performance and bad consistency. There are lots of projects became famous by addident because there were no other competitors. Rewriting those projects could potentially improve user experience.
