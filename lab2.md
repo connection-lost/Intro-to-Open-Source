@@ -13,8 +13,8 @@ I agree. Since the world is open to creations, Gopher has to face more adaptions
 Microsoft's .Net platform is created to encourage people to adapt. MIT license have ralatively loose limit, which make developer easier and safer and easier to use the existing .Net resource.
 
 ##6. Think of an example project. Pick a license (as a group) using the LICENSE chooser by Github.
-Example project: Shuttle Tracker for RPI
-License chooser gives: MIT License
+Example project: A game maker engine called Flappy Bird Maker
+License chooser gives: MIT license
 
 ##7. Read these licenses GPL, LGPL and Apache/BSD and discuss which one will be better - for a developer, for a company and for the common good - write 5 to 10 sentences.
 GPL is better for companies. It allows companies to charge for their compiled code, while still delivering the source code to the open community. The community has to obey the same or higher version of GPL while using the code, which discourages others to use their code in other ways more freely.
@@ -25,8 +25,8 @@ Apache/BSD is better for common good. They basiclly means "do whatever you want"
 https://github.com/connection-lost-intro-to-open-source/Lab2Exercise
 
 ##9. Write five sentences about choosing a project to work in this course and who will be users/customers and what license will you choose.
-Shuttle Tracker for RPI, MIT License
-Users could be any RPI students taking the shuttle. Depending on the extensibility of the project, the project could also be used on any school or organization with busses that are linked to the iTrak API. The reason choosing MIT license is the code does not worth any real revenue, it is better to just give them to the community and let them free to adapt.
+Submitty, MIT license
+Original target audience are RPI studens using homework submission server. Depending on the extensibility, the project could be used to evaluate any kind of homework assignment for any organization. The reason choosing MIT license is the code does not worth any real revenue, it is better to just give them to the community and let them free to adapt.
 
 Take 5 projects from Observatory or past RCOS Projects - create a table which project has which license.
 
