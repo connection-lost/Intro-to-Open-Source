@@ -8,8 +8,18 @@ Jesse was aimed to provide a better searching environment. His approach is stori
 
 ##Screenshots
 ![1](res/lab1/tree.png)
-![2](res/lab1/regex1.png)
-![3](res/lab1/regex2.png)
+![2](res/lab1/regexa.png)
+![3](res/lab1/regexb.png)
+![2](res/lab1/regexc.png)
+![3](res/lab1/regexd.png)
+![2](res/lab1/regexe.png)
+![3](res/lab1/regexf.png)
+![2](res/lab1/regexg.png)
+![3](res/lab1/regex1.png)
+![2](res/lab1/regex2.png)
+![3](res/lab1/regex3.png)
+![2](res/lab1/regex4.png)
+![3](res/lab1/regex5.png)
 
 ![4](res/lab1/maze.png)
 ![5](res/lab1/maze2.png)
