@@ -32,11 +32,7 @@ Take 5 projects from Observatory or past RCOS Projects - create a table which pr
 Website | License Present | License
 ---------|:----------|:-------
 https://github.com/olivierpo/minebot | Yes | MIT
----------|:----------|:-------
 https://github.com/Robmaister/SharpNav | Yes | MIT
----------|:----------|:-------
 https://github.com/makinj/MeNext | Yes | MIT
----------|:----------|:-------
 https://github.com/samuelyuan/GoMuellerWeb | Yes | MIT
----------|:----------|:-------
 https://github.com/rcos/venue | Yes | MIT
