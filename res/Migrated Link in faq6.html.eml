@@ -1,0 +1,35 @@
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8;
+ format=flowed
+Content-Transfer-Encoding: 7bit
+Date: Thu, 22 Sep 2016 09:00:32 -0400
+From: wuy13 <wuy13@rpi.edu>
+To: tech@openbsd.org
+Subject: Migrated Link in faq6.html
+Message-ID: <63b243a2d19441c4a0d1849a6ee7d61f@rpi.edu>
+X-Sender: wuy13@rpi.edu
+User-Agent: Roundcube Webmail/0.9.5
+X-Originating-IP: 104.228.45.30
+X-Remote-Browser: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0)
+ Gecko/20100101 Firefox/47.0
+X-RoundCube-Server: 128.113.2.171
+
+The link to "run netstart" is incorrect. Corrected link to the man page.
+
+Index: faq6.html
+===================================================================
+RCS file: /cvs/www/faq/faq6.html,v
+retrieving revision 1.416
+diff -u -p -r1.416 faq6.html
+--- faq6.html	18 Sep 2016 11:22:37 -0000	1.416
++++ faq6.html	22 Sep 2016 12:33:03 -0000
+@@ -325,7 +325,7 @@ inet alias 192.168.0.3 255.255.255.255
+  inet alias 192.168.0.4 255.255.255.255
+  </pre></blockquote>
+
+-Once you've created this file, <a href="Setup.activate">run 
+netstart</a> or
++Once you've created this file, <a 
+href="http://man.openbsd.org/netstart">run netstart</a> or
+  reboot.
+  To view all aliases, use <tt>$ <b>ifconfig -A</b></tt>
