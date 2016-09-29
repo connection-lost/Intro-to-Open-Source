@@ -1,0 +1,73 @@
+Return-Path: <theo.buehler@math.ethz.ch>
+Received: from lmtpproxyd (imap-fe3.server.rpi.edu [128.113.2.243])
+	 by imap-be6.server.rpi.edu (Cyrus v2.4.17-caldav-beta9-Debian-2.4.17+caldav~beta9-3) with LMTPA;
+	 Thu, 22 Sep 2016 13:11:30 -0400
+X-Sieve: CMU Sieve 2.4
+Received: from smtp-auth2.server.rpi.edu (route.canit.rpi.edu [128.113.2.232])
+	 by imap-fe3 (Cyrus v2.4.17-caldav-beta9-Debian-2.4.17+caldav~beta9-3) with LMTPSA
+	 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256/256 verify=YES);
+	 Thu, 22 Sep 2016 13:11:30 -0400
+X-Sieve: CMU Sieve 2.4
+Received: from smtp-auth2.server.rpi.edu (localhost [127.0.0.1])
+	by smtp-auth2.server.rpi.edu (Postfix) with ESMTP id D2C3B18023
+	for <wuy13@rpi.edu>; Thu, 22 Sep 2016 13:11:30 -0400 (EDT)
+Received: from smtp10.server.rpi.edu (smtp10.server.rpi.edu [128.113.2.230])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by smtp-auth2.server.rpi.edu (Postfix) with ESMTPS id C7B7018002
+	for <wuy13@rpi.edu>; Thu, 22 Sep 2016 13:11:30 -0400 (EDT)
+Received: from edge10.ethz.ch (edge10.ethz.ch [82.130.75.186])
+	by smtp10.server.rpi.edu (8.14.4/8.14.4/Debian-8) with ESMTP id u8MHBSZJ011786
+	(version=TLSv1/SSLv3 cipher=ECDHE-RSA-AES256-SHA bits=256 verify=NOT)
+	for <wuy13@rpi.edu>; Thu, 22 Sep 2016 13:11:29 -0400
+Received: from CAS12.d.ethz.ch (172.31.38.212) by edge10.ethz.ch
+ (82.130.75.186) with Microsoft SMTP Server (TLS) id 14.3.319.2; Thu, 22 Sep
+ 2016 19:11:24 +0200
+Received: from math.ethz.ch (178.238.175.59) by mail.ethz.ch (172.31.38.212)
+ with Microsoft SMTP Server (TLS) id 14.3.319.2; Thu, 22 Sep 2016 19:11:26
+ +0200
+Date: Thu, 22 Sep 2016 19:11:25 +0200
+From: Theo Buehler <theo@math.ethz.ch>
+To: wuy13 <wuy13@rpi.edu>
+Subject: Re: Migrated Link in faq6.html
+Message-ID: <20160922171125.GB14775@math.ethz.ch>
+References: <63b243a2d19441c4a0d1849a6ee7d61f@rpi.edu>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Disposition: inline
+In-Reply-To: <63b243a2d19441c4a0d1849a6ee7d61f@rpi.edu>
+X-Originating-IP: [178.238.175.59]
+X-Bayes-Prob: 0.0001 (Score 0, tokens from: wuy13@rpi.edu, default, @@RPTN)
+X-Spam-Score: 0.00 () [Hold at 3.00] SPF(none:0),DKIM(none:0)
+X-CanIt-Incident-Id: 03RKFbsNS
+X-CanIt-Geo: ip=82.130.75.186; country=CH; region=Zurich; city=Zurich; latitude=47.3780; longitude=8.5234; http://maps.google.com/maps?q=47.3780,8.5234&z=6
+X-CanItPRO-Stream: wuy13@rpi.edu (inherits from default)
+X-Canit-Stats-ID: 03RKFbsNS - fbefed9c76ad - 20160922
+X-Antispam-Training-Forget: https://respite.rpi.edu/canit/b.php?i=03RKFbsNS&m=fbefed9c76ad&t=20160922&c=f
+X-Antispam-Training-Nonspam: https://respite.rpi.edu/canit/b.php?i=03RKFbsNS&m=fbefed9c76ad&t=20160922&c=n
+X-Antispam-Training-Phish: https://respite.rpi.edu/canit/b.php?i=03RKFbsNS&m=fbefed9c76ad&t=20160922&c=p
+X-Antispam-Training-Spam: https://respite.rpi.edu/canit/b.php?i=03RKFbsNS&m=fbefed9c76ad&t=20160922&c=s
+Received-SPF: none (smtp10.server.rpi.edu: domain of theo.buehler@math.ethz.ch
+	does not designate permitted sender hosts)
+	receiver=smtp10.server.rpi.edu; client-ip=82.130.75.186;
+	envelope-from=<theo.buehler@math.ethz.ch>; helo=edge10.ethz.ch;
+	identity=mailfrom
+X-Scanned-By: CanIt (www . roaringpenguin . com) on 128.113.2.230
+X-Virus-Scanned: ClamAV using ClamSMTP
+
+> -Once you've created this file, <a href="Setup.activate">run netstart</a> or
+
+Just a missing #. Fixed, thanks.
+
+
+-- 
+BEGIN-ANTISPAM-VOTING-LINKS
+------------------------------------------------------
+
+Teach CanIt if this mail (ID 03RKFbsNS) is spam:
+Spam:        https://respite.rpi.edu/canit/b.php?i=03RKFbsNS&m=fbefed9c76ad&t=20160922&c=s
+Not spam:    https://respite.rpi.edu/canit/b.php?i=03RKFbsNS&m=fbefed9c76ad&t=20160922&c=n
+Forget vote: https://respite.rpi.edu/canit/b.php?i=03RKFbsNS&m=fbefed9c76ad&t=20160922&c=f
+------------------------------------------------------
+END-ANTISPAM-VOTING-LINKS
+
