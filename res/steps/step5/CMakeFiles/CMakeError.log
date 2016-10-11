@@ -1,0 +1,54 @@
+Determining if the function log exists failed with the following output:
+Change Dir: /home/mc/cmake/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4948/fast"
+make[1]: Entering directory '/home/mc/cmake/src/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a4948.dir/build.make CMakeFiles/cmTC_a4948.dir/build
+make[2]: Entering directory '/home/mc/cmake/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4948.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=log   -o CMakeFiles/cmTC_a4948.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘log’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_a4948
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4948.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=log    CMakeFiles/cmTC_a4948.dir/CheckFunctionExists.c.o  -o cmTC_a4948 -rdynamic 
+CMakeFiles/cmTC_a4948.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `log'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a4948.dir/build.make:97: recipe for target 'cmTC_a4948' failed
+make[2]: *** [cmTC_a4948] Error 1
+make[2]: Leaving directory '/home/mc/cmake/src/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a4948/fast' failed
+make[1]: *** [cmTC_a4948/fast] Error 2
+make[1]: Leaving directory '/home/mc/cmake/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function exp exists failed with the following output:
+Change Dir: /home/mc/cmake/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbbcb/fast"
+make[1]: Entering directory '/home/mc/cmake/src/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dbbcb.dir/build.make CMakeFiles/cmTC_dbbcb.dir/build
+make[2]: Entering directory '/home/mc/cmake/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbbcb.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=exp   -o CMakeFiles/cmTC_dbbcb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘exp’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_dbbcb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbbcb.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=exp    CMakeFiles/cmTC_dbbcb.dir/CheckFunctionExists.c.o  -o cmTC_dbbcb -rdynamic 
+CMakeFiles/cmTC_dbbcb.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `exp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dbbcb.dir/build.make:97: recipe for target 'cmTC_dbbcb' failed
+make[2]: *** [cmTC_dbbcb] Error 1
+make[2]: Leaving directory '/home/mc/cmake/src/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dbbcb/fast' failed
+make[1]: *** [cmTC_dbbcb/fast] Error 2
+make[1]: Leaving directory '/home/mc/cmake/src/CMakeFiles/CMakeTmp'
+
+
