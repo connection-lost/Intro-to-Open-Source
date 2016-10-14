@@ -8,6 +8,7 @@
 * latest commit: Oct 13, 2016
 * current branches: master, newstyle, old, windowsapp
 * [Link to gitstats](res/WeirdSideofYouTube/out)
+* [Link to video](https://youtu.be/yPgZAKK31oA)
 
 ### UFDS
 * number of contributors: 1
