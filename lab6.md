@@ -18,3 +18,8 @@
 * current branches: master
 * [Link to gitstats](res/UFDS/out2)
 * [Link to video](https://youtu.be/D7-FH1OVQpU)
+
+
+### Submitty
+* [Link to gitstats](res/Submitty/out3)
+* [Link to video](https://youtu.be/6j9MNbFOQ68)
