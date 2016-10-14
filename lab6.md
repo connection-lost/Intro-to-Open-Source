@@ -16,5 +16,5 @@
 * first commit: Sep 13, 2016
 * latest commit: Sep 13, 2016
 * current branches: master
-* [Link to gitstats](res/UFDS/out)
+* [Link to gitstats](res/UFDS/out2)
 * [Link to video](https://youtu.be/D7-FH1OVQpU)
