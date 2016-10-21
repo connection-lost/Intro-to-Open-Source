@@ -21,6 +21,10 @@
 
 
 ### Submitty
+* number of contributors: 25
+* number of lines of code: 144759
+* first commit: Jan 31, 2014
+* latest commit: Oct 12, 2016
 * [Link to gitstats](res/Submitty/out3)
 * [Link to video](https://youtu.be/6j9MNbFOQ68)
 
