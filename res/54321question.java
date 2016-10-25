@@ -5,8 +5,8 @@ import java.util.Set;
 
 public class Main {
 	
-	static List<Double> numbers = new ArrayList<Double>();
-	static Set<Double> solutions = new HashSet<Double>();
+    static List<Double> numbers = new ArrayList<Double>();
+    static Set<Double> solutions = new HashSet<Double>();
 	
     public static void main(String[] args) {	
     	// Add numbers in list of numbers
@@ -46,15 +46,15 @@ public class Main {
     		for (int op = 0; op < 4; op ++){
     			if (op == 0){
     				/* Basically...
-    					1. Numbers selected:
-    					5 4 3 2 1
+    				1. Numbers selected:
+    				5 4 3 2 1
     			        ^ ^
     			        2. Oprerator selected:
     			         +
     			        3. Result could be:
     			        5+4 3 2 1
     			        4. Turns into:
-    			        9   3 2 1
+    			         9  3 2 1
     				 */
     	    		double nn = n1 + n2;
     	    		List<Double> newlist = new ArrayList<Double>(input);
