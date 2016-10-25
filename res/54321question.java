@@ -27,6 +27,7 @@ public class Main {
     			}
     		}
     	}
+	// The solution is: 39 is the only integer cannot be computed from 0~40
     }
     
     public static void compute(List<Double> input){
