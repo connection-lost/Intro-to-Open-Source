@@ -56,33 +56,33 @@ public class Main {
     			        4. Turns into:
     			         9  3 2 1
     				 */
-    	    		double nn = n1 + n2;
-    	    		List<Double> newlist = new ArrayList<Double>(input);
-    	    		newlist.remove(pos);
-    	    		newlist.remove(pos);
-    	    		newlist.add(pos, nn);
-    	    		compute(newlist);
+    	    			double nn = n1 + n2;
+    	    			List<Double> newlist = new ArrayList<Double>(input);
+    	    			newlist.remove(pos);
+    	    			newlist.remove(pos);
+    	    			newlist.add(pos, nn);
+    	    			compute(newlist);
     			} else if (op == 1){
-    	    		double nn = n1 - n2;
-    	    		List<Double> newlist = new ArrayList<Double>(input);
-    	    		newlist.remove(pos);
-    	    		newlist.remove(pos);
-    	    		newlist.add(pos, nn);
-    	    		compute(newlist);
+    	    			double nn = n1 - n2;
+    	    			List<Double> newlist = new ArrayList<Double>(input);
+    	    			newlist.remove(pos);
+    	    			newlist.remove(pos);
+    	    			newlist.add(pos, nn);
+    	    			compute(newlist);
     			} else if (op == 2){
-    	    		double nn = n1 * n2;
-    	    		List<Double> newlist = new ArrayList<Double>(input);
-    	    		newlist.remove(pos);
-    	    		newlist.remove(pos);
-    	    		newlist.add(pos, nn);
-    	    		compute(newlist);
+    	    			double nn = n1 * n2;
+    	    			List<Double> newlist = new ArrayList<Double>(input);
+    	    			newlist.remove(pos);
+    	    			newlist.remove(pos);
+    	    			newlist.add(pos, nn);
+    	    			compute(newlist);
     			} else if (op == 3){
-    	    		double nn = n1 / n2;
-    	    		List<Double> newlist = new ArrayList<Double>(input);
-    	    		newlist.remove(pos);
-    	    		newlist.remove(pos);
-    	    		newlist.add(pos, nn);
-    	    		compute(newlist);
+    	    			double nn = n1 / n2;
+    	    			List<Double> newlist = new ArrayList<Double>(input);
+    	    			newlist.remove(pos);
+    	    			newlist.remove(pos);
+    	    			newlist.add(pos, nn);
+    	    			compute(newlist);
     			}
     		}	
     	}
