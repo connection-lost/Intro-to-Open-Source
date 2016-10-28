@@ -15,9 +15,9 @@ import re
 def convertClass(line):
   line2 = line
   line = re.sub(r'\>(.*)', r'<blockquote>\1</blockquote>', line)
-  line = re.sub(r'\#\#\#(.*)\#\#\#', r'<h3>\1</h3>', line)
-  line = re.sub(r'\#\#(.*)\#\#', r'<h2>\1</h2>', line)
-  line = re.sub(r'\#(.*)\#', r'<h1>\1</h1>', line)
+  line = re.sub(r'\#\#\#(.*)', r'<h3>\1</h3>', line)
+  line = re.sub(r'\#\#(.*)', r'<h2>\1</h2>', line)
+  line = re.sub(r'\#(.*)', r'<h1>\1</h1>', line)
   if (line2 == line):
     return '<p>' + line + '</p>'
   return line

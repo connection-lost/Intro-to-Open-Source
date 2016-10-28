@@ -41,7 +41,7 @@ class TestMarkdownPy(unittest.TestCase):
         Lines surrounded by # should be wrapped in 'h1' tags
         '''
         self.assertEqual( 
-                run_markdown('#this is h1#'),
+                run_markdown('#this is h1'),
                 '<h1>this is h1</h1>')
 
     def test_two(self):
@@ -49,7 +49,7 @@ class TestMarkdownPy(unittest.TestCase):
         Lines surrounded by # should be wrapped in 'h2' tags
         '''
         self.assertEqual( 
-                run_markdown('##this is h2##'),
+                run_markdown('##this is h2'),
                 '<h2>this is h2</h2>')
         
     def test_three(self):
@@ -57,7 +57,7 @@ class TestMarkdownPy(unittest.TestCase):
         Lines surrounded by # should be wrapped in 'h3' tags
         '''
         self.assertEqual( 
-                run_markdown('###this is h3###'),
+                run_markdown('###this is h3'),
                 '<h3>this is h3</h3>')
 
     def test_four(self):
