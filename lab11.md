@@ -8,9 +8,6 @@ I joined #ubuntu channel on irc.freenode.net.
 Upon joining, message of the day shows up. It has information about what this channel is, and what can user expect to get in this channel. #ubuntu channel is the unofficial support for Ubuntu operating system, and people are able to ask questions and get answers with other community members.    
 There are also too many users in this channel, currently it has 1900+. This makes the channel getting spammed by user joining and leaving messages.
 
-###2.1    
-
-
 ###2.2    
 [11.2.2](res/11.2.2.png)
 
