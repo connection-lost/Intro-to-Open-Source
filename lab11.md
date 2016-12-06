@@ -31,5 +31,3 @@ rcos.slack.com, channel #csci2961-fall2016
 * Description: Class slack channel
 * Project Goal: Slack channel for fall csci2961 class.
 * Communication Modes: slack
-
-###3.2
